@@ -1,0 +1,6 @@
+{
+    "baseUrl": "",
+    "env": {
+        "api": "https://api.dev.example.com"
+    }
+}

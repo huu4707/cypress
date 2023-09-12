@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "execa": "^7.2.0"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "cp:open": "cypress open",
+    "cp:open:prod": "cypress open --env mode=prod",
+    "cp:open:staging": "cypress open --env mode=staging"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huu4707/cypress.git"
+  },
+  "author": "huunguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huu4707/cypress/issues"
+  },
+  "homepage": "https://github.com/huu4707/cypress#readme"
+}
